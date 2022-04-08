@@ -307,3 +307,42 @@
 </body>
 
 </html>
+
+<!-- public function index()
+    {
+        $this->form_validation->set_rules('username','Username','trim|required',['required' => 'Username Wajib Diisi']);
+        $this->form_validation->set_rules('password','Password','trim|required',['required' => 'Password Wajib Diisi']);
+        if ($this->form_validation->run() == false) {
+            $this->load->view('v_login');
+        }else {
+            // validasi sukses
+            $this->_login();
+        }
+    }
+
+    private function _login()
+    {
+        // ambil email yang sudah lolos validasi
+        $username = set_value('username');
+        $password = set_value('password');
+
+        // query ke database
+        $result = $this->db->get_where('tb_user',['username' => $username])->row_array();
+                           
+        
+        // cek data
+        // usernya ada
+        if ($result['username'] == $username && $result['password'] == $password ) {
+            // cek password
+            $this->session->set_userdata($result);
+            $this->load->view('v_header');
+        $this->load->view('v_menu');
+        $this->load->view('v_dashboard');
+        $this->load->view('v_footer');
+        }else{
+            $this->session->set_flashdata('message','<div class="alert alert-danger" role="alert">
+            Email atau password salah!
+          </div>');
+          redirect('auth');
+        }
+    } -->

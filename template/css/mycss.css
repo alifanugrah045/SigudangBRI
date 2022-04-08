@@ -14,6 +14,16 @@ tbody tr td .iconku,
 .btnku {
   color: #ffff !important;
 }
+.btn-primaryku {
+  color: #fff;
+  background-color: #013161;
+  border-color: #013161;
+}
+.btn-primaryku:hover {
+  color: #fff;
+  background-color: #263c99;
+  border-color: #263c99;
+}
 /* .cardlogin .card-body form .d-flex .btncustom {
   background: #013161;
 } */

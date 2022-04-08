@@ -40,7 +40,7 @@
     <!-- Navbar Brand-->
     <!-- logo -->
     <a class="navbar-brand   align-items-centerps-3" href="index.html" >
-    <img src="logo.png" class=" navbar-brand rounded align-items-center ms-5" style="width: 100px; height: 60px;" alt="logo">
+    <img src="<?= base_url()?>template/img/logo.png" class=" navbar-brand rounded align-items-center ms-5" style="width: 100px; height: 60px;" alt="logo">
     </a>
     <!-- akhir logo -->
 
@@ -56,7 +56,7 @@
           <li><a class="dropdown-item" href="#!">Settings</a></li>
           <li><a class="dropdown-item" href="#!">Activity Log</a></li>
           <li><hr class="dropdown-divider" /></li>
-          <li><a class="dropdown-item" href="login.php">Logout</a></li>
+          <li><a class="dropdown-item" href="<?php ?>">Logout</a></li>
         </ul>
       </li>
     </ul>
