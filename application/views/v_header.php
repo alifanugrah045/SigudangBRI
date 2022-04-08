@@ -40,7 +40,7 @@
     <!-- Navbar Brand-->
     <!-- logo -->
     <a class="navbar-brand   align-items-centerps-3" href="index.html" >
-    <img src="<?= base_url()?>template/img/logo.png" class=" navbar-brand rounded align-items-center ms-5" style="width: 100px; height: 60px;" alt="logo">
+    <img src="<?= base_url()?>template/img/logo_putih.png" class=" navbar-brand rounded align-items-center ms-5" style="width: 100px; height: 60px;" alt="logo">
     </a>
     <!-- akhir logo -->
 

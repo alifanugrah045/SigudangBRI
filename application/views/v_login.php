@@ -20,7 +20,7 @@
   
   </div>
     <div class="card cardlogin shadow-lg border-0">
-      <img class="img-fluid" src="<?= base_url()?>template/img/logo.png" alt="logo" />
+      <img class="img-fluid" src="<?= base_url()?>template/img/logo_biru.png" alt="logo" />
       <div class="card border-0"><h3 class="text-center font-weight-light mt-3">Silahkan Login</h3></div>
       <div class="card-body">
         <?php echo  $this->session->flashdata('message')?>
