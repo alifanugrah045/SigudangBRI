@@ -1,1 +1,0 @@
-Pangggil alif

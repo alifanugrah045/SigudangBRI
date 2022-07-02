@@ -9,11 +9,12 @@ class C_dashboard extends CI_Controller {
         $this->load->helper('url');
     }
     public function index()
+    
     {
-       
+        $data['databarang'] = $this->model_barang->tampil_data_barang()->result();
         $this->load->view('v_header');
         $this->load->view('v_menu');
-        $this->load->view('v_dashboard');
+        $this->load->view('v_dashboard',$data);
         $this->load->view('v_footer');
     }
     
