@@ -1,2 +1,0 @@
-# BRIKeep
-Project 1
