@@ -62,7 +62,7 @@
                                 <th scope="col">No</th>
                                 <th scope="col">Nama Barang</th>
                                 <th scope="col">Harga Barang</th>
-                                <th scope="col" width="250px">Aksi</th>
+                                <th scope="col" >Aksi</th>
                             </tr>
                         </thead>
 
@@ -73,9 +73,9 @@
                                     <td scope="row"><?php echo ($no + 1); ?></td>
                                     <td><?php echo $brg->nama_barang ?></td>
                                     <td><?php echo $brg->harga_barang ?></td>
-                                    <td width="250px" class="d-flex justify-content-center">
-                                        <a href="<?php echo $brg->id_barang ?>" class="btn btn-primary btnku" data-bs-toggle="modal" data-bs-target="#editdDataBarang<?= $brg->id_barang; ?>"><i class="bi bi-pencil-square iconku me-1"></i>Edit</a>
-                                        <a class="btn btn-danger btnku ms-1" data-bs-toggle="modal" data-bs-target="#hapusdatabarang<?= $brg->id_barang; ?>"><i class="bi bi-trash-fill iconku me-1"></i>Hapus</a>
+                                    <td  class="d-flex justify-content-center">
+                                        <a href="<?php echo $brg->id_barang ?>" class="btn btn-primary btnku" data-bs-toggle="modal" data-bs-target="#editdDataBarang<?= $brg->id_barang; ?>"><i class="bi bi-pencil-square iconku me-1"></i></a>
+                                        <a class="btn btn-danger btnku ms-1" data-bs-toggle="modal" data-bs-target="#hapusdatabarang<?= $brg->id_barang; ?>"><i class="bi bi-trash-fill iconku me-1"></i></a>
                                     </td>
                                 </tr>
                                 <?php $no++; ?>

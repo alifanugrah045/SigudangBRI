@@ -47,7 +47,7 @@
                         </div>
 
                         <div class="mb-3">
-                          <label for="nama_unit" class="col-form-label">Unit Tuj</label>
+                          <label for="nama_unit" class="col-form-label">Unit Tujuan</label>
                           <select class="form-control" name="nama_unit" required>
                             <option value="" disabled selected hidden>-- Pilih Unit --</option>
                             <?php foreach ($unit->result() as $brg) : ?>
@@ -71,9 +71,9 @@
                                     <option value="<?= $brg->id_barang; ?>"> <?= $brg->nama_barang; ?> </option>
                                   <?php endforeach; ?>
                                 </select>
-                                <div class="input-group-addon ml-3">
+                                <!-- <div class="input-group-addon ml-3">
                                   <a href="javascript:void(0)" class="btn btn-success addMore"><i class="fas fa-plus"></i></a>
-                                </div>
+                                </div> -->
                               </div>
                             </div>
 
@@ -93,7 +93,7 @@
                           </div>
                         </div>
                         <div class="mb-3">
-                          <label for="jumlah_keluar"></label>
+                          <label for="jumlah_keluar">Jumlah</label>
                           <input type="number" name="jumlah_keluar" class="form-control" min="0" placeholder="Masukan Jumlah Barang" />
                         </div>
 
